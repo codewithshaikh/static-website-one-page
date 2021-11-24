@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*body{
+	font-family: sans-serif;
+	background-image: url("image/14.jpg");*/
+ 
+}
+div, section, span, ul, li, a, header{
+	box-sizing: border-box;
+}
+
+section{
+	width: 100%;
+	float: left;
+	height: 100vh;
+}
+
+
+header{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px  5px;
+	align-items: center;
+	z-index: 999;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+ 
+ .logo h2{
+ 	/*width: 250px;*/
+ 	/*height: 75px;*/
+ 	color: #09C8CB ;
+ 	padding-left:55px;
+ 	padding-right:none;
+ 	text-transform: uppercase;
+
+ }
+
+ .nav{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	margin: 10px;
+
+ }
+
+ .nav li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin: 20px;
+}
+
+
+.nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.nav li a:hover{
+	/*background-color: orange;*/
+	text-decoration:underline;
+	color: orange;
+}
+ #home{
+ 	background-image:url();
+ }
+
+#about{
+	background-color: orange;
+}
+
+#services{
+	background-color: blue;
+}
+
+#team{
+	background-color: yellow;
+}
+
+
+#contact{
+	background-color: red;
+}
+
+.bg img{
+	width: 100%;
+	height: 100vh;
+}
+
+.text{
+	width: 100%;
+	margin-top: 180px;
+	text-transform: uppercase;
+}
+
+#smanu{
+	position: absolute;
+}
+
+/*about us page start*/
+
+
+
+
+
+
+
+
